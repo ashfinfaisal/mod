@@ -4,22 +4,189 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HeliClumsy</title>
+    <title>my spin-off of mod.gov.in</title>
     <style>
         body{
+            background-color: white;
             color: black;
-            font-size: 30px;
-            font-family: "Algerian";
-            background-image: linear-gradient(to right , magenta, blue, darkcyan);
+            font-size: 20px;
+            font-family:  'Open Sans', sans-serif;
+        }
+        #div1{
+            background-color: rgb(240, 239, 239);
+            height: 30px;
+            width: 100%;
+            margin-top: 20px;
+            border-style: solid;
+            border-color: rgb(214, 214, 214);
+            border-width: 1px;
+            border-top: transparent;
+            display: flex;
+            align-items: center;
+        }
+        .top{
+            color: black;
+            font-size: 10px;
+        }
+        #div2{
+            height: 100px;
+            width: 1334px;
+            display: flex;
+        }
+        #div3{
+            background-color: #c64a30;
+            height: 50px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .navi{
+            display: inline;
+            word-spacing: 5px;
+        }
+        a{
+            color: white;
+            text-decoration: none;
+        }
+        a:hover{
+            color: rgb(112, 112, 112);
+        }
+        #sec1{
+            height: auto;
+            width: 815px;
+            display: grid;
+            grid-template-columns: auto auto;
+            padding-left: 70px;
+            grid-row-gap: 15px;
+        }
+        .grid1{
+            color: black;
+            height: 75px;
+            width: 390px;
+            border: solid black 2px;
+        }
+        .grid1:hover{
+            background-color: #c64a30;
+            color: white;
+        }
+        #sec2{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .divclass2{
+            height: 200px;
+            width: 400px;
+
+        }
+        #sec3{
+            height: 150px;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
         }
     </style>
 </head>
 <body>
-    <h2>HeliClumsy</h2>
-    <iframe src="https://scratch.mit.edu/projects/496434249/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
-</br>
-<a href="https://scratch.mit.edu/projects/496434249">You can also play it on scratch.</a>
-</br>
-<a href="https://scratch.mit.edu/projects/481397421">My other games</a>
+    <div id="div1">
+        <a href="https://www.india.gov.in/" class="top">भारत सरकार</a>
+    </hr>
+        <a href="https://www.india.gov.in/" class="top">GOVERNMENT OF INDIA</a>
+    </div>
+    <br>
+    <div id="div2">
+        <a href="index.html"><img src="emblem-dark.png"></a>
+        <a href="https://swachhbharat.mygov.in/"><img src="Swach-india.png" style="margin-left: 1000px;"></a>
+    </div>
+    <div id="div3">
+        <nav>
+            <ul>
+                <li class="navi">
+                    <a href="navigation.html">home</a>
+                </li>
+                <li class="navi">
+                    <a href="my bio-data.html">Aboutus</a>
+                </li>
+                <li class="navi">
+                    <a href="navigation.html">ParliamentMatters</a>
+                </li>
+
+                <li class="navi">
+                    <a href="Contact Us.html">Publications</a>
+                </li>
+                <li class="navi">
+                    <a href="login.html">RTI</a>
+                </li>
+                <li class="navi">
+                    <a href="navigation.html">Acts&Rules</a>
+                </li>
+                <li class="navi">
+                    <a href="my bio-data.html">OfficialLanguageCorner</a>
+                </li>
+                <li class="navi">
+                    <a href="Contact Us.html">PressReleases</a>
+                </li>
+                <li class="navi">
+                    <a href="login.html">Who'sWho</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <img src="slide photo.jpg" width="1333">
+    <h2 style="font-weight: 500; padding-left: 70px">About the Ministry</h2>
+    <p style="font-size: 14px; padding-right: 500px; padding-left: 70px; text-align: justify; line-height: 22px;">The Government of India is responsible for ensuring the defence of India and every part thereof. The Supreme Command of the Armed Forces vests in the President. The responsibility for national defence rests with the Cabinet.
+        <br>
+        <br>
+        This is discharged through the Ministry of Defence, which provides the policy framework and wherewithal to the Armed Forces to discharge their responsibilities in the context of the defence of the country.The Raksha Mantri (Defence Minister) is the head of the Ministry of Defence.
+        <br>
+        <br>
+        The principal task of the Defence Ministry is to obtain policy directions of the Government on all defence and security related matters and communicate them for implementation to the Services Headquarters,Inter-Services Organisations,Production Establishments and Research and Development...
+    </p>
+    <a href="https://www.mod.gov.in/about--ministry" style="color : #c64a30; font-size: 14px; padding-left: 70px;">Read more...</a>
+    <br>
+    <section id="sec1">
+        <a href="https://www.mod.gov.in/dod/" target="_blank"><div class="grid1">Department of Defence (DOD)</div></a>
+        <a href="https://www.ddpmod.gov.in/" target="_blank"><div class="grid1">Department of Defence Production (DDP)</div></a>
+        <a href="http://www.desw.gov.in/" target="_blank"><div class="grid1">Department of Ex Servicemen Welfare (DESW)</div></a>
+        <a href="https://www.drdo.gov.in/"><div class="grid1">Defence Research and Development Organisation (DRDO)</div></a>
+        <a href="https://www.mod.gov.in/department-military-affairs/" target="_blank"><div class="grid1">Department of Military Affairs (DMA)</div></a>
+    </section>
+    <br>
+    <section id="sec2">
+        <div class="divclass2"><img src="International-Fleet-Review_0.jpg"></div>
+        <div class="divclass2" style="background-color: #c64a30 ; color: white;"><marquee direction="up" height="200"><ul style="list-style-type: square;">
+            <li>Preventive measures to contain the spread of COVID 19</li>
+            <li>Entry pay of Direct Recruits in Defence Services appointed on or after 01 January 2006 and pay fixation in the case of persons other than such direct recruits</li>
+            <li>Immunization Drive in the Ministry of Defence to contain spread of COVID 19 -Regarding</li>
+            <li>Immunization Drive to contain spread of COVID19- Regarding</li>
+            <li>Shipbuilding RFP-DAP 2020-Reg</li>
+            <li>Inviting comments and observation of the Industry Associations, think tanks and industry on Draft Defence Procurement Manual Vol II by 16 April 2021 at Email ID jsaf dash mod at gov dot in</li>
+            <li>Inviting comments and observation of the Industry Associations, think tanks and industry on Draft Defence Procurement Manual Vol I by 16 April 2021 at Email ID jsaf dash mod at gov dot in</li>
+            <li>REQUEST FOR INFORMATION FOR PROCUREMENT OF 7 X 50 MARINE BINOCULARS</li>
+            <li>Delegation and Enhancement of existing delegation of financial powers for sanction of Capital procurement cases under Other Capital Procurement Procedure and Make I</li>
+            <li>Delegation of Powers to SHQ for contract amendment on account of reduction of PWBG</li>
+            <li>Expression of Interest for Empanelment of Cost and Data Analysis Consulting Firms for the Acquisition Wing Extension of the last date of submission reg ---</li>
+            <li>Expression of Interest for Empanelment of Legal Consulting Firms for the Acquisition Wing Extension of the last date of submission reg</li>
+            <li>Performance Security-regarding</li>
+            <li>Expression of Interest (EOI) for Empanelment of Legal Consulting Firms for Acquisition Wing, Department Of Defence , MoD</li>
+            <li>Expression of Interest (EOI) for Empanelment of Cost and Data Analysis Consulting Firms for Acquisition Wing, Department Of Defence , MoD</li>
+        </ul></marquee></div>
+        <div class="divclass2"><img src="photo gallery.jpg"></div>
+    </section>
+    <br>
+    <section id="sec3">
+        <img src="nvsp portal_1.png">
+        <img src="Defexpo01102019.png">
+        <img src="yogaday99.jpg">
+        <img src="indiacode.png">
+        <img src="digital1 (1).png">
+        <img src="eprocure-logo.png">
+    </section>
+    <p style="font-family: Brush Script MT; font-size: 30px;">Made by Ashfin Faisal</p>
 </body>
 </html>
